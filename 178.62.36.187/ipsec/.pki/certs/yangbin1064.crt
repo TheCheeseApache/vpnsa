@@ -1,0 +1,61 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=178.62.36.187
+        Validity
+            Not Before: May 23 08:18:15 2020 GMT
+            Not After : May 21 08:18:15 2030 GMT
+        Subject: CN=yangbin1064
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (384 bit)
+                pub:
+                    04:31:d0:00:6a:1c:45:69:68:8b:57:b5:ba:ac:32:
+                    4e:50:2b:a3:38:64:54:ad:f4:df:5d:ae:bf:ed:5e:
+                    78:c1:b5:06:12:56:4c:ea:e5:da:ac:84:c8:1a:14:
+                    19:cd:fd:b7:5a:ca:04:d9:6c:f7:39:8c:97:33:42:
+                    ed:f0:c5:cc:15:30:28:12:54:a7:6d:92:d1:6c:2d:
+                    71:ef:28:5f:5a:d7:fa:d0:f3:50:ea:34:94:67:e8:
+                    05:e1:34:81:db:44:0a
+                ASN1 OID: secp384r1
+                NIST CURVE: P-384
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                90:EB:7D:EE:2F:15:6E:0F:0A:8B:A4:5F:0A:50:78:72:84:F1:F5:A0
+            X509v3 Authority Key Identifier: 
+                keyid:A1:0A:98:18:63:C0:96:94:A9:8B:7D:F2:3F:07:0E:08:DE:FC:E1:24
+                DirName:/CN=178.62.36.187
+                serial:36:F8:B4:C1:76:58:39:6D:C9:37:AB:59:47:58:5B:74:3F:A0:EA:4C
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication, ipsec Internet Key Exchange
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                email:yangbin1064@685ff771-1e07-5bef-a665-d4ec5f6ba807.algo
+    Signature Algorithm: ecdsa-with-SHA256
+         30:65:02:31:00:f4:72:3f:a9:26:00:88:3a:f1:6b:2e:31:7a:
+         11:7d:67:26:72:62:f0:8d:f4:6b:04:c0:b3:3a:6d:b1:8c:6b:
+         c3:cf:18:d9:ba:6f:12:cb:eb:a0:bf:90:5f:3e:eb:4d:cc:02:
+         30:6b:ee:d8:da:9d:b7:71:bd:5c:56:e1:28:30:a3:e7:48:72:
+         0f:f0:b5:54:14:b9:96:42:ec:87:2e:7d:b9:5e:47:c2:30:8e:
+         c3:e4:cc:f7:e1:c0:04:61:e0:57:a6:6c:bd
+-----BEGIN CERTIFICATE-----
+MIICVTCCAdugAwIBAgIBAjAKBggqhkjOPQQDAjAYMRYwFAYDVQQDDA0xNzguNjIu
+MzYuMTg3MB4XDTIwMDUyMzA4MTgxNVoXDTMwMDUyMTA4MTgxNVowFjEUMBIGA1UE
+AwwLeWFuZ2JpbjEwNjQwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAQx0ABqHEVpaItX
+tbqsMk5QK6M4ZFSt9N9drr/tXnjBtQYSVkzq5dqshMgaFBnN/bdaygTZbPc5jJcz
+Qu3wxcwVMCgSVKdtktFsLXHvKF9a1/rQ81DqNJRn6AXhNIHbRAqjgfowgfcwCQYD
+VR0TBAIwADAdBgNVHQ4EFgQUkOt97i8Vbg8Ki6RfClB4coTx9aAwUwYDVR0jBEww
+SoAUoQqYGGPAlpSpi33yPwcOCN784SShHKQaMBgxFjAUBgNVBAMMDTE3OC42Mi4z
+Ni4xODeCFDb4tMF2WDltyTerWUdYW3Q/oOpMMCcGA1UdJQQgMB4GCCsGAQUFBwMB
+BggrBgEFBQcDAgYIKwYBBQUHAxEwCwYDVR0PBAQDAgWgMEAGA1UdEQQ5MDeBNXlh
+bmdiaW4xMDY0QDY4NWZmNzcxLTFlMDctNWJlZi1hNjY1LWQ0ZWM1ZjZiYTgwNy5h
+bGdvMAoGCCqGSM49BAMCA2gAMGUCMQD0cj+pJgCIOvFrLjF6EX1nJnJi8I30awTA
+szptsYxrw88Y2bpvEsvroL+QXz7rTcwCMGvu2Nqdt3G9XFbhKDCj50hyD/C1VBS5
+lkLshy59uV5HwjCOw+TM9+HABGHgV6ZsvQ==
+-----END CERTIFICATE-----

@@ -1,0 +1,7 @@
+Host 178.62.36.187 Ad-Astra
+  HostName 178.62.36.187
+  User algo
+  Port 4160
+  IdentityFile /root/algo/configs/algo.pem
+  KeepAlive yes
+  ServerAliveInterval 30

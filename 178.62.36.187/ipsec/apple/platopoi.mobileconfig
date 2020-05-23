@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>IKEv2</key>
+            <dict>
+              <key>OnDemandEnabled</key>
+              <integer>0</integer>
+              <key>OnDemandRules</key>
+              <array>
+                  <dict>
+                    <key>Action</key>
+                      <string>Connect</string>
+                  </dict>
+                </array>
+                <key>AuthenticationMethod</key>
+                <string>Certificate</string>
+                <key>ChildSecurityAssociationParameters</key>
+                <dict>
+                    <key>DiffieHellmanGroup</key>
+                    <integer>20</integer>
+                    <key>EncryptionAlgorithm</key>
+                    <string>AES-256-GCM</string>
+                    <key>IntegrityAlgorithm</key>
+                    <string>SHA2-512</string>
+                    <key>LifeTimeInMinutes</key>
+                    <integer>1440</integer>
+                </dict>
+                <key>DeadPeerDetectionRate</key>
+                <string>Medium</string>
+                <key>DisableMOBIKE</key>
+                <integer>0</integer>
+                <key>DisableRedirect</key>
+                <integer>1</integer>
+                <key>EnableCertificateRevocationCheck</key>
+                <integer>0</integer>
+                <key>EnablePFS</key>
+                <true/>
+                <key>IKESecurityAssociationParameters</key>
+                <dict>
+                    <key>DiffieHellmanGroup</key>
+                    <integer>20</integer>
+                    <key>EncryptionAlgorithm</key>
+                    <string>AES-256-GCM</string>
+                    <key>IntegrityAlgorithm</key>
+                    <string>SHA2-512</string>
+                    <key>LifeTimeInMinutes</key>
+                    <integer>1440</integer>
+                </dict>
+                <key>LocalIdentifier</key>
+                <string>platopoi@685ff771-1e07-5bef-a665-d4ec5f6ba807.algo</string>
+                <key>PayloadCertificateUUID</key>
+                <string>57FA4D30-1128-54CF-B138-9400AAC8444D</string>
+                <key>CertificateType</key>
+                <string>ECDSA384</string>
+                <key>ServerCertificateIssuerCommonName</key>
+                <string>178.62.36.187</string>
+                <key>RemoteAddress</key>
+                <string>178.62.36.187</string>
+                <key>RemoteIdentifier</key>
+                <string>178.62.36.187</string>
+                <key>UseConfigurationAttributeInternalIPSubnet</key>
+                <integer>0</integer>
+            </dict>
+            <key>IPv4</key>
+            <dict>
+                <key>OverridePrimary</key>
+                <integer>1</integer>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Configures VPN settings</string>
+            <key>PayloadDisplayName</key>
+            <string>Ad-Astra</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.vpn.managed.BDDDF2BC-6793-549B-9B4D-A2924258CEF8</string>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key>
+            <string>BDDDF2BC-6793-549B-9B4D-A2924258CEF8</string>
+            <key>PayloadVersion</key>
+            <real>1</real>
+            <key>Proxies</key>
+            <dict>
+                <key>HTTPEnable</key>
+                <integer>0</integer>
+                <key>HTTPSEnable</key>
+                <integer>0</integer>
+            </dict>
+            <key>UserDefinedName</key>
+            <string>AlgoVPN Ad-Astra IKEv2</string>
+            <key>VPNType</key>
+            <string>IKEv2</string>
+        </dict>
+        <dict>
+            <key>Password</key>
+            <string>FBNb76QsH</string>
+            <key>PayloadCertificateFileName</key>
+            <string>platopoi.p12</string>
+            <key>PayloadContent</key>
+            <data>
+            MIIExwIBAzCCBI0GCSqGSIb3DQEHAaCCBH4EggR6MIIEdjCCAxcGCSqGSIb3DQEHBqCCAwgwggME
+AgEAMIIC/QYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIV+DwNs3XUrACAggAgIIC0NZKQt+B
+GNfrAn28ufArg08gbRv0IKHxcHf+OeUiC+Npa8TUO436QnEEiTmKLwnu5uRi+LCv12y1NFp7X/d3
+X4fXB5vU4fRvmbcXZsD87q/fZgCd0eID8gFwbA4NH0OHi2MI9qM0SGOsVAi9h5LA8xFRvLckEz9O
+27xPntttAyKqTSey4073hDrWhTpFEUadS6awU7+PtZdesN9F6J70pfJpn+3YT6pD5NMC3Phdy1+U
+TvMKEv9oT1ojx4mtHkARgkv1+9MLKrCNArFLWm/QpMC/mbdOTa4BwAV6H5ytc/skjK4HVUudYbuh
+v5QW6x3kAi6GJBy/GhdHLzil8g51WGks3pm+NQ7Qq5EOUdoBpntYatGpXECGo59dwc9PYjlSUz69
+42zE68mv0MogYsgROFMz/ODNZ3cfhVlPy7EEuyf7f2IXrIaBjxf7jhp2ONiHKeM12f2KR2YVr+Pl
+ZW5ysTjoOXeI9VUmsAv56A8qW68c++dag0Y/QaOH0Dx7VXOvHWxYs8wVj90XAljjZnRyYALO8oK0
+bLdvD6eNCXeOj3beK1ewRmnRNlP6S0ikNihoOCZd2VlnvGTGTeT4zDzwhkZfJEUB69IHBvXCdzuw
+L+6MTW3+s64LlcgNW324HEvJayhOXzMuBgusIctmPrBpe2N/14kHhcoofw795kfBMiF9z/k7meBM
+SehqDBixd6pzbT12jnifa8uykw1A5N3iCG85b4E4ri7rMHU4YC/c3mGwGvo1ao5k1nSBeNg8aXSk
+7kMdSAilWRdnzIpk+AOXJlv57KNVYfBbrdrjakhR8YoDXubd6yM0z7LpCWrACfyfpSgqN/ZjoN1P
+OHges76p3yFQAks8lpv/Vowz6j5n/lLTJq4oPhMkrGwoPfx8UZ2zXoxG7aoCpIhcS2om8LpAjgvN
+Pj7HlvjAOlofUvwHgnRJzGq0v5XlG/VjbD9c3aHkGzCCAVcGCSqGSIb3DQEHAaCCAUgEggFEMIIB
+QDCCATwGCyqGSIb3DQEMCgECoIHkMIHhMBwGCiqGSIb3DQEMAQMwDgQINMryh8Muc2sCAggABIHA
+qTjeHowDicEnRSs+h8NQNuCDRKngQCgQAUPObtDFpUU/QBxMsNgCy5XpWYVvJEEvKMMq1OoJGZjJ
+X5y0gmq06IWKK4a9T0xl3ZPFOaleFlyI8OWiYMSUNlSruyCDoWyzqDN+YDtDY+fRRGgkWOiKjSDC
+XLhCbgJkkZVsPYXPVk++Mdlo/jBtflL6SWxKyDkuozYki9LC20lHrKPVlvxdKG5BzptExcWYIBD1
+rrx0XbJZHD2brkqog7qEnpLBj1IuMUYwHwYJKoZIhvcNAQkUMRIeEABwAGwAYQB0AG8AcABvAGkw
+IwYJKoZIhvcNAQkVMRYEFN+qFlucgmBlUmKvN0IRu6n0SxjOMDEwITAJBgUrDgMCGgUABBQ7e3Ph
+W6SOzYjMif83Z5RG3jB2vQQIcUjMDa3ey4wCAggA
+            </data>
+            <key>PayloadDescription</key>
+            <string>Adds a PKCS#12-formatted certificate</string>
+            <key>PayloadDisplayName</key>
+            <string>Ad-Astra</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.security.pkcs12.57FA4D30-1128-54CF-B138-9400AAC8444D</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.pkcs12</string>
+            <key>PayloadUUID</key>
+            <string>57FA4D30-1128-54CF-B138-9400AAC8444D</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+        <dict>
+            <key>PayloadCertificateFileName</key>
+            <string>ca.crt</string>
+            <key>PayloadContent</key>
+            <data>
+            LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUNxRENDQWk2Z0F3SUJBZ0lVTnZpMHdYWllPVzNKTjZ0WlIxaGJkRCtnNmt3d0NnWUlLb1pJemowRUF3SXcKR0RFV01CUUdBMVVFQXd3Tk1UYzRMall5TGpNMkxqRTROekFlRncweU1EQTFNak13T0RFNE1UTmFGdzB6TURBMQpNakV3T0RFNE1UTmFNQmd4RmpBVUJnTlZCQU1NRFRFM09DNDJNaTR6Tmk0eE9EY3dkakFRQmdjcWhrak9QUUlCCkJnVXJnUVFBSWdOaUFBUno5UWFoYTZPekpHRGxnc2JDelhMeUdvdXR5d3c0Q3ptUU9nWjRLUGc3TlB6a041TWsKNzRYN3VyUTJWRVJBRzBXbjVNNjFESUs3VXo3YXBGU0M4Z0loTU1SWkdqUFp4ZHUzcHBldC9kOThJeXVhK0hJcgpZZTRlMEdDeVRkNXhWSHFqZ2dFM01JSUJNekFkQmdOVkhRNEVGZ1FVb1FxWUdHUEFscFNwaTMzeVB3Y09DTjc4CjRTUXdVd1lEVlIwakJFd3dTb0FVb1FxWUdHUEFscFNwaTMzeVB3Y09DTjc4NFNTaEhLUWFNQmd4RmpBVUJnTlYKQkFNTURURTNPQzQyTWk0ek5pNHhPRGVDRkRiNHRNRjJXRGx0eVRlcldVZFlXM1Evb09wTU1CSUdBMVVkRXdFQgovd1FJTUFZQkFmOENBUUF3Z1pzR0ExVWRIZ0VCL3dTQmtEQ0JqYUNCaWpBS2h3aXlQaVM3Ly8vLy96QXJnaWsyCk9EVm1aamMzTVMweFpUQTNMVFZpWldZdFlUWTJOUzFrTkdWak5XWTJZbUU0TURjdVlXeG5iekFyZ1NrMk9EVm0KWmpjM01TMHhaVEEzTFRWaVpXWXRZVFkyTlMxa05HVmpOV1kyWW1FNE1EY3VZV3huYnpBaWh5QXFBN0RBQUFFQQowQUFBQUFBQVhnQUIvLy8vLy8vLy8vLy8vLy8vLy8vLy96QUxCZ05WSFE4RUJBTUNBUVl3Q2dZSUtvWkl6ajBFCkF3SURhQUF3WlFJd1ZLQWRzS29neGc4YnlyN3RaODFsa2FjZlU4YlBBdTdjWVB2ZlBOMUp5T0hqendaNjNOZXcKL1VLUWJLV1FScnZiQWpFQXFRNVVVTWhJUVBibWlHSTM3c2lTTTl2MnJUYzNlVER6eDl0LzkrMm1iYWg0cU0ybgpkck1VYmpRMk54WDkwamVLCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0=
+            </data>
+            <key>PayloadDescription</key>
+            <string>Adds a CA root certificate</string>
+            <key>PayloadDisplayName</key>
+            <string>Ad-Astra</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.security.root.1424CCD2-F58B-5C96-8AE5-8924FEDB8E5F</string>
+            <key>PayloadType</key>
+            <string>com.apple.security.root</string>
+            <key>PayloadUUID</key>
+            <string>1424CCD2-F58B-5C96-8AE5-8924FEDB8E5F</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>AlgoVPN Ad-Astra IKEv2</string>
+    <key>PayloadIdentifier</key>
+    <string>donut.local.99CAA355-E800-5C6E-BA98-0A5B7247972E</string>
+    <key>PayloadOrganization</key>
+	<string>AlgoVPN</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>6D7EE891-92C5-55AB-9C70-B2FDF8DE34FC</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

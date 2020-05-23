@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+<dict>
+	<key>IPv4</key>
+  <dict>
+      <key>OverridePrimary</key>
+      <integer>1</integer>
+  </dict>
+	<key>PayloadDescription</key>
+	<string>Configures VPN settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Ad-Astra</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.vpn.managed.Ad-Astra3B9A4690-0B5D-5BC3-A5C5-21305566D87F</string>
+	<key>PayloadType</key>
+	<string>com.apple.vpn.managed</string>
+	<key>PayloadUUID</key>
+	<string>Ad-Astra3B9A4690-0B5D-5BC3-A5C5-21305566D87F</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>Proxies</key>
+	<dict>
+		<key>HTTPEnable</key>
+		<integer>0</integer>
+		<key>HTTPSEnable</key>
+		<integer>0</integer>
+	</dict>
+	<key>UserDefinedName</key>
+	<string>AlgoVPN Ad-Astra</string>
+	<key>VPN</key>
+	<dict>
+    <key>OnDemandEnabled</key>
+    <integer>0</integer>
+    <key>OnDemandRules</key>
+    <array>
+      <dict>
+        <key>Action</key>
+        <string>Connect</string>
+      </dict>
+    </array>
+		<key>AuthenticationMethod</key>
+		<string>Password</string>
+		<key>RemoteAddress</key>
+		<string>178.62.36.187:51820</string>
+	</dict>
+	<key>VPNSubType</key>
+	<string>com.wireguard.macos</string>
+	<key>VPNType</key>
+	<string>VPN</string>
+	<key>VendorConfig</key>
+	<dict>
+		<key>WgQuickConfig</key>
+		<string>[Interface]
+        PrivateKey = KGsq9u/PvRDU2znIAr+dhtHCeRC7Q9VJoAAhRGnp4mM=
+        Address = 10.19.49.4/24 ,fd9d:bc11:4021::4/48
+        DNS =  172.25.29.171, fd00::9:1dab 
+        
+        [Peer]
+        PublicKey = Wp87AAfP13TN07XVCMf9fd41au7a77QVPzDIVdK0ln8=
+        PresharedKey = 1cv2YtFSUq+PMltBqV470n8F+30hxg1GOR9PdqiZscg=
+        AllowedIPs = 0.0.0.0/0,::/0
+        Endpoint = 178.62.36.187:51820</string>
+	</dict>
+</dict>  </array>
+  <key>PayloadDisplayName</key>
+  <string>AlgoVPN Ad-Astra WireGuard</string>
+  <key>PayloadIdentifier</key>
+  <string>donut.local.36BEAC3A-C0BD-5F6A-94B4-C27435BF2F1B</string>
+  <key>PayloadOrganization</key>
+  <string>AlgoVPN</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>7489998B-B2A2-5C13-8811-FC8D0197B881</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

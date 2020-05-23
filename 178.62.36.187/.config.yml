@@ -1,0 +1,15 @@
+server: 178.62.36.187
+server_user: algo
+ansible_ssh_port: "4160"
+ansible_ssh_private_key_file: configs/algo.pem
+algo_provider: digitalocean
+algo_server_name: Ad-Astra
+algo_ondemand_cellular: False
+algo_ondemand_wifi: False
+algo_ondemand_wifi_exclude: X251bGw=
+algo_dns_adblocking: False
+algo_ssh_tunneling: False
+algo_store_pki: True
+IP_subject_alt_name: 178.62.36.187
+ipsec_enabled: True
+wireguard_enabled: True
